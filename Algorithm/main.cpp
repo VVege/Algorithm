@@ -84,7 +84,7 @@ public:
             cout << "无效的输入" << endl;
             currentSelectIndex = 0;
         }
-        cout << "你已选择了" << dataSource[currentSelectIndex].title << endl;
+        cout << "你已经选择了" << dataSource[currentSelectIndex].title << endl;
     }
 };
 
