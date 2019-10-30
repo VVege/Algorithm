@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		7625A64D2364576700F86FA2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7625A64C2364576700F86FA2 /* main.cpp */; };
+		E3312F11236937E6000E4D4E /* FirstMissingPositive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3312F0F236937E6000E4D4E /* FirstMissingPositive.cpp */; };
+		E34CC8AD23668DD90013AF16 /* AlgorithmFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E34CC8AB23668DD90013AF16 /* AlgorithmFactory.cpp */; };
+		E34CC8B023668E440013AF16 /* Algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E34CC8AE23668E440013AF16 /* Algorithm.cpp */; };
+		E34CC8B323668E700013AF16 /* OperationProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E34CC8B123668E700013AF16 /* OperationProcess.cpp */; };
+		E34CC8B72366C1210013AF16 /* Quicksort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E34CC8B52366C1210013AF16 /* Quicksort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,16 @@
 /* Begin PBXFileReference section */
 		7625A6492364576700F86FA2 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		7625A64C2364576700F86FA2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E3312F0F236937E6000E4D4E /* FirstMissingPositive.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FirstMissingPositive.cpp; sourceTree = "<group>"; };
+		E3312F10236937E6000E4D4E /* FirstMissingPositive.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FirstMissingPositive.hpp; sourceTree = "<group>"; };
+		E34CC8AB23668DD90013AF16 /* AlgorithmFactory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AlgorithmFactory.cpp; sourceTree = "<group>"; };
+		E34CC8AC23668DD90013AF16 /* AlgorithmFactory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AlgorithmFactory.hpp; sourceTree = "<group>"; };
+		E34CC8AE23668E440013AF16 /* Algorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Algorithm.cpp; sourceTree = "<group>"; };
+		E34CC8AF23668E440013AF16 /* Algorithm.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Algorithm.hpp; sourceTree = "<group>"; };
+		E34CC8B123668E700013AF16 /* OperationProcess.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OperationProcess.cpp; sourceTree = "<group>"; };
+		E34CC8B223668E700013AF16 /* OperationProcess.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OperationProcess.hpp; sourceTree = "<group>"; };
+		E34CC8B52366C1210013AF16 /* Quicksort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Quicksort.cpp; sourceTree = "<group>"; };
+		E34CC8B62366C1210013AF16 /* Quicksort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Quicksort.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +73,26 @@
 			isa = PBXGroup;
 			children = (
 				7625A64C2364576700F86FA2 /* main.cpp */,
+				E34CC8AB23668DD90013AF16 /* AlgorithmFactory.cpp */,
+				E34CC8AC23668DD90013AF16 /* AlgorithmFactory.hpp */,
+				E34CC8AE23668E440013AF16 /* Algorithm.cpp */,
+				E34CC8AF23668E440013AF16 /* Algorithm.hpp */,
+				E34CC8B123668E700013AF16 /* OperationProcess.cpp */,
+				E34CC8B223668E700013AF16 /* OperationProcess.hpp */,
+				E34CC8B423669B2F0013AF16 /* AlgorithmDerivedClasses */,
 			);
 			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		E34CC8B423669B2F0013AF16 /* AlgorithmDerivedClasses */ = {
+			isa = PBXGroup;
+			children = (
+				E34CC8B52366C1210013AF16 /* Quicksort.cpp */,
+				E34CC8B62366C1210013AF16 /* Quicksort.hpp */,
+				E3312F0F236937E6000E4D4E /* FirstMissingPositive.cpp */,
+				E3312F10236937E6000E4D4E /* FirstMissingPositive.hpp */,
+			);
+			path = AlgorithmDerivedClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3312F11236937E6000E4D4E /* FirstMissingPositive.cpp in Sources */,
+				E34CC8AD23668DD90013AF16 /* AlgorithmFactory.cpp in Sources */,
+				E34CC8B72366C1210013AF16 /* Quicksort.cpp in Sources */,
+				E34CC8B323668E700013AF16 /* OperationProcess.cpp in Sources */,
+				E34CC8B023668E440013AF16 /* Algorithm.cpp in Sources */,
 				7625A64D2364576700F86FA2 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
