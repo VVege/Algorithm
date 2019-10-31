@@ -17,12 +17,14 @@ void Algorithm::coutInputDescription() {
     std::cout << mInputDescription << std::endl;
 }
 
-void Algorithm::cinInputContent() {
+bool Algorithm::cinInputContent() {
     if (!verifyInput()) {
         std::cout << "检测到输入参数不合法，请重新输入：" << std::endl;
         cinInputContent();
+        return false;
     }else{
         coutResult();
+        return true;
     }
 }
 

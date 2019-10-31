@@ -24,7 +24,7 @@ protected:
 public:
     virtual void coutTitle();
     virtual void coutInputDescription();
-    virtual void cinInputContent();
+    virtual bool cinInputContent();
     virtual void coutResult();
 };
 

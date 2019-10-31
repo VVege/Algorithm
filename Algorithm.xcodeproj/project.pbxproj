@@ -13,6 +13,9 @@
 		E34CC8B023668E440013AF16 /* Algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E34CC8AE23668E440013AF16 /* Algorithm.cpp */; };
 		E34CC8B323668E700013AF16 /* OperationProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E34CC8B123668E700013AF16 /* OperationProcess.cpp */; };
 		E34CC8B72366C1210013AF16 /* Quicksort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E34CC8B52366C1210013AF16 /* Quicksort.cpp */; };
+		E3E26DE4236A7920006093E9 /* Models.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3E26DE2236A7920006093E9 /* Models.cpp */; };
+		E3E26DE8236A7C48006093E9 /* Generator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3E26DE6236A7C48006093E9 /* Generator.cpp */; };
+		E3E26DEB236AB35B006093E9 /* Printer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3E26DE9236AB35B006093E9 /* Printer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +43,12 @@
 		E34CC8B223668E700013AF16 /* OperationProcess.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OperationProcess.hpp; sourceTree = "<group>"; };
 		E34CC8B52366C1210013AF16 /* Quicksort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Quicksort.cpp; sourceTree = "<group>"; };
 		E34CC8B62366C1210013AF16 /* Quicksort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Quicksort.hpp; sourceTree = "<group>"; };
+		E3E26DE2236A7920006093E9 /* Models.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Models.cpp; sourceTree = "<group>"; };
+		E3E26DE3236A7920006093E9 /* Models.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Models.hpp; sourceTree = "<group>"; };
+		E3E26DE6236A7C48006093E9 /* Generator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Generator.cpp; sourceTree = "<group>"; };
+		E3E26DE7236A7C48006093E9 /* Generator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Generator.hpp; sourceTree = "<group>"; };
+		E3E26DE9236AB35B006093E9 /* Printer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Printer.cpp; sourceTree = "<group>"; };
+		E3E26DEA236AB35B006093E9 /* Printer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Printer.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +88,8 @@
 				E34CC8AF23668E440013AF16 /* Algorithm.hpp */,
 				E34CC8B123668E700013AF16 /* OperationProcess.cpp */,
 				E34CC8B223668E700013AF16 /* OperationProcess.hpp */,
+				E3E26DE5236A7C17006093E9 /* Utils */,
+				E3E26DE1236A788D006093E9 /* Models */,
 				E34CC8B423669B2F0013AF16 /* AlgorithmDerivedClasses */,
 			);
 			path = Algorithm;
@@ -93,6 +104,26 @@
 				E3312F10236937E6000E4D4E /* FirstMissingPositive.hpp */,
 			);
 			path = AlgorithmDerivedClasses;
+			sourceTree = "<group>";
+		};
+		E3E26DE1236A788D006093E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E3E26DE2236A7920006093E9 /* Models.cpp */,
+				E3E26DE3236A7920006093E9 /* Models.hpp */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E3E26DE5236A7C17006093E9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E3E26DE6236A7C48006093E9 /* Generator.cpp */,
+				E3E26DE7236A7C48006093E9 /* Generator.hpp */,
+				E3E26DE9236AB35B006093E9 /* Printer.cpp */,
+				E3E26DEA236AB35B006093E9 /* Printer.hpp */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,9 +185,12 @@
 			files = (
 				E3312F11236937E6000E4D4E /* FirstMissingPositive.cpp in Sources */,
 				E34CC8AD23668DD90013AF16 /* AlgorithmFactory.cpp in Sources */,
+				E3E26DE4236A7920006093E9 /* Models.cpp in Sources */,
 				E34CC8B72366C1210013AF16 /* Quicksort.cpp in Sources */,
 				E34CC8B323668E700013AF16 /* OperationProcess.cpp in Sources */,
+				E3E26DE8236A7C48006093E9 /* Generator.cpp in Sources */,
 				E34CC8B023668E440013AF16 /* Algorithm.cpp in Sources */,
+				E3E26DEB236AB35B006093E9 /* Printer.cpp in Sources */,
 				7625A64D2364576700F86FA2 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

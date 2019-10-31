@@ -21,10 +21,10 @@ OperationalProcess:: OperationalProcess (){
 
 void OperationalProcess:: coutAlgorithmList() {
     for (int i = 0; i < dataSource.size(); i ++) {
-        std::cout << i+1;
+        std::cout << i+1  << "******";
         dataSource[i]->coutTitle();
     }
-    std::cout << "请输入你要选择的算法，只支持整数：" << std::endl;
+    std::cout << "©️请输入你要选择的算法，只支持整数：" << std::endl;
 }
 
 void OperationalProcess:: cinChoosedAlgorithm() {
@@ -36,6 +36,11 @@ void OperationalProcess:: cinChoosedAlgorithm() {
         cinChoosedAlgorithm();
     }else{
         dataSource[currentSelectIndex]->coutInputDescription();
-        dataSource[currentSelectIndex]->cinInputContent();
+        bool finish = dataSource[currentSelectIndex]->cinInputContent();
+        if (finish) {
+            std::cout << "算法已完成，请继续选择算法" << std::endl;
+            coutAlgorithmList();
+            cinChoosedAlgorithm();
+        }
     }
 }
